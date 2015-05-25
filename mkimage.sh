@@ -14,6 +14,7 @@ IMAGEURL="http://mirror.pnl.gov/fedora/linux/releases/21/Images/armhfp/Fedora-Mi
 BOOTSIZE=50
 ROOTSIZE=900
 COMPRESS=0
+HEADLESS=0
 if [[ ! -f settings.conf ]]; then
 	echo "No settings.conf found, using defaults"
 else

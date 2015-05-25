@@ -3,3 +3,5 @@ IMAGEURL="http://mirror.pnl.gov/fedora/linux/releases/21/Images/armhfp/Fedora-Mi
 BOOTSIZE=50
 ROOTSIZE=900
 COMPRESS=0
+# Change to enable pi user
+HEADLESS=0
